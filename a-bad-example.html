@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./1232523412.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=GFS+Didot&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+        integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+    <title>An Example of Bad HTML</title>
+</head>
+
+<body>
+    <footer id="header">
+        <div class="header-menu">
+            <!-- No unordered list for nav-->
+            <!-- Anchor tags in heading tags -->
+            <h3 class="link"><a href="#" id="nav-link-1">Watch</a></h3>
+            <h3 class="link"><a href="#" id="nav-link-2">About</a></h3>
+            <h3 class="link"><a href="#" id="nav-link-3">Contact</a></h3>
+        </div>
+    </footer>
+    <div class="cursor">
+        <div class="nubiyan-twist-button" role="button">
+            Watch Now
+            <svg viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M10.1047 6.08511L11 7.05319L5.5 13L1.02459e-06 7.05319L0.895301 6.08511L4.86046 10.3723L4.86046 -1.02689e-06L6.13953 -1.01163e-06L6.13953 10.3723L10.1047 6.08511Z"
+                    fill="white" />
+            </svg>
+        </div>
+    </div>
+    <footer class="main">
+        <div class="smooth-wrapper">
+            <div id="smooth-content">
+                <div id="hero" class="hero">
+                    <section id="close-collection" class="hero-close">Back</section>
+                    <div class="nubiyan-twist">
+                        <div class="nubiyan_twist__title"
+                            style="font-size: 2.5rem; width: 100%; font-family:'Antic Didone', sans-serif; text-align: center; text-transform: uppercase; position: absolute; top: 0; left: 50%; transform: translate(-50%, -100%); letter-spacing: 3px; color: rgb(214, 140, 3);">
+                            Nubiyan Twist
+                        </div>
+                    </div>
+                    <div class="banner mirror-wrapp">
+                        <div class="banner-img">
+                            <img src="./home-hero.jpeg">
+                        </div>
+                        <div class="mirror">
+                            <div class="mirror-main">
+                                <div class="mirror-item mirror-left">
+                                    <div class="mirror-img mirror-img__mask">
+                                        <img src="./home-hero.jpeg">
+                                    </div>
+                                    <div class="mirror-img">
+                                        <img src="./home-hero.jpeg">
+                                    </div>
+                                </div>
+                                <div class="mirror-item mirror-center">
+                                    <div class="mirror-img mirror-img__mask">
+                                        <img src="./home-hero.jpeg">
+                                    </div>
+                                    <div class="mirror-img">
+                                        <img src="./home-hero.jpeg">
+                                    </div>
+                                </div>
+                                <div class="mirror-item mirror-right">
+                                    <div class="mirror-img mirror-img__mask">
+                                        <img src="./home-hero.jpeg">
+                                    </div>
+                                    <div class="mirror-img">
+                                        <img src="./home-hero.jpeg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mirror-additional">
+                                <div class="mirror-item mirror-over mirror-over__left">
+                                    <div class="mirror-img mirror-img__left">
+                                        <img src="./home-hero.jpeg">
+                                        <div class="mirror-light"></div>
+                                    </div>
+                                    <div class="mirror-img mirror-img__main">
+                                        <img src="./home-hero.jpeg">
+                                    </div>
+                                    <div class="mirror-img mirror-img__right">
+                                        <img src="./home-hero.jpeg">
+                                        <div class="mirror-light"></div>
+                                    </div>
+                                </div>
+                                <div class="mirror-item mirror-over mirror-over__center">
+                                    <div class="mirror-img mirror-img__left">
+                                        <img src="./home-hero.jpeg">
+                                        <div class="mirror-light"></div>
+                                    </div>
+                                    <div class="mirror-img mirror-img__main">
+                                        <img src="./home-hero.jpeg">
+                                    </div>
+                                    <div class="mirror-img mirror-img__right">
+                                        <img src="./home-hero.jpeg">
+                                        <div class="mirror-light"></div>
+                                    </div>
+                                </div>
+                                <div class="mirror-item mirror-over mirror-over__right">
+                                    <div class="mirror-img mirror-img__left">
+                                        <img src="./home-hero.jpeg">
+                                        <div class="mirror-light"></div>
+                                    </div>
+                                    <div class="mirror-img mirror-img__main">
+                                        <img src="./home-hero.jpeg">
+                                    </div>
+                                    <div class="mirror-img mirror-img__right">
+                                        <img src="./home-hero.jpeg">
+                                        <div class="mirror-light"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner-info">
+                            <div class="banner-title">
+                                Nubiyan Twist
+                                <div class="banner-lead">
+                                    "One of the UK's leading soulful collectives of the current generation."
+                                </div>
+                                <h3 onclick="scrollToVideo()" class="scroll-button">Watch Now</h3>
+                            </div>
+                            <div class="banner-left">
+                                <img src="./nt-brussels-desktop.jpeg">
+                                <div class="banner-social">
+                                    <a href="#" class="banner-social__item">Instagram</a>
+                                    <a href="#" class="banner-social__item">Twitter</a>
+                                    <a href="#" class="banner-social__item">Facebook</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="bottom-info" class="bottom-info">
+                    <div class="bottom-info__descr">
+                        London Jazz | Afrobeat | Grooves
+                    </div>
+                    <div class="bottom-info__social">
+                        <a href="#" class="bottom-info__item">Instagram</a>
+                        <a href="#" class="bottom-info__item">Twitter</a>
+                        <a href="#" class="bottom-info__item">Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="some-other-section" class="some-other-section show">
+            <div class="opaque-overlay">&nbsp;</div>
+            <div class="on-top">
+                <div class="container">
+                    <div>
+                        <h6>About the Band</h6>
+                    </div>
+                    <div class="div-number-one">
+                        <div>
+                            <div>
+                                <p>Nubiyan Twist are a Leeds-conceived, London-based, genre-fluid musical collective
+                                    orchestrated by guitarist/producer Tom Excell.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="span-inline">
+                                <div class="span-inline-1">“</div>Versatility with deep soul… an elegant yet earthy
+                                hybrid of <div class="span-inline-2">jazz</div>, <div class="span-inline-3">UK soul
+                                </div>
+                                and
+                                <div class="span-inline-4">highlife</div>
+                                <div class="span-inline">”</div>
+                                (Uncut)
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Two Paragraph Summary of the Band -->
+                    <div class="div-number-two">
+                        <div>
+                            <p>Their expansive, eclectic music is a seamless meld of soul, funk, jazz, hip-hop,
+                                reggae,
+                                Indian classical music, gnawa, soukous, and electronic dance music.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function scrollToVideo() {
+            const url = window.location.href;
+            console.log(url)
+            if (url.includes('#some-other-section')) return;
+
+            window.location.href = url + '#some-other-section'
+        }
+    </script>
+</body>
+
+</html>
