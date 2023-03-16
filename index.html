@@ -124,7 +124,7 @@
                                 <div class="banner-lead">
                                     "One of the UK's leading soulful collectives of the current generation."
                                 </div>
-                                <h3 onclick="scrollToVideo()" class="scroll-button">Watch Now</h3>
+                                <a href="#some-other-section" class="scroll-button">Watch Now</a>
                             </div>
                             <div class="banner-left">
                                 <img src="./nt-brussels-desktop.jpeg">
@@ -187,15 +187,6 @@
             </div>
         </div>
     </footer>
-    <script>
-        function scrollToVideo() {
-            const url = window.location.href;
-            console.log(url)
-            if (url.includes('#some-other-section')) return;
-
-            window.location.href = url + '#some-other-section'
-        }
-    </script>
 </body>
 
 </html>
